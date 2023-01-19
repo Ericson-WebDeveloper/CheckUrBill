@@ -1,0 +1,126 @@
+https://markbdsouza.github.io/csv-data-generator/
+
+composer require google/apiclient:~2.0
+
+php artisan migrate --path=database/migrations/2022_12_07_025706_create_bills_table.php
+
+php artisan migrate --path='database/migrations/2022_12_07_031046_create_bill_costumers_table.php'
+
+
+paypal reference -> https://drive.google.com/drive/folders/1u6bPjlp8-PKADhksWTKfO6hao-pPnq2n
+
+
+
+search paymetn api available 
+
+https://docs.adyen.com/payment-methods/gcash/api-only
+https://www.dragonpay.ph/
+
+
++++++++++++++++++++++++++++++++++++++++++
+xendit.co/
+https://www.youtube.com/watch?v=-ziUQuTjec0
+https://packagist.org/packages/xendit/xendit-php
+
+ericson.15.philpacs@gmail.com
+Qwerty_mode15
+xnd_development_174mOAA4J1uWVN6ExmkE5445YnWsIsGHCriqbuQPHIZw0Qv8yruxJJKbMgpCacW - Secret keys
+xnd_public_development_IEra8o2YdgSEO2vMpnnAyQfEIGtw63Iiqnscd5UBVihJPUAOrhieSHSfVIrJrR - Public key
++++++++++++++++++++++++++++++++++++++++++
+
+
+----
+https://getpaid.gcash.com/signup
+https://getpaid.gcash.com/
+-- Password: kjNH@87X
+psymonasegurado@gmail.com -> business type
+ericson.15.philpacs@gmail.com -> individual type
+Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.
+gcash use 09053273273
+1590 -> MPIN
+
+
+https://dragonpay.readthedocs.io/en/latest/quickstart.html
+
+
+https://docs.adyen.com/payment-methods/gcash/api-only?tab=codeBlockrecurring_gcash_nba6A_PHP_4
+
+
+https://stripe.com/docs/api/payment_intents/capture?lang=php
+https://stripe.com/docs/testing
+
+
+
+
+
+-----MAKE REPORT MILLION DATA-----
+Chunk and stream the results. This will output results as a chunk is retrieved, rather than loading all of the records into memory, building a CSV file, and then outputting that CSV file once it’s complete.
+-- Gawin PDF
+
+Download file from the server Laravel and reactjs
+https://stackoverflow.com/questions/58131035/download-file-from-the-server-laravel-and-reactjs
+
+https://www.appsloveworld.com/reactjs/200/71/download-file-from-the-server-laravel-and-reactjs
+[SOLVED]-DOWNLOAD FILE FROM THE SERVER LARAVEL AND REACTJS-REACTJS
+
+
+
+https://www.scribd.com/document/436816501/Simplified-Way-of-Processing-Large-Data-Using-Chunk-in-Laravel#
+
+https://medium.com/@barryvdh/streaming-large-csv-files-with-laravel-chunked-queries-4158e484a5a2
+
+
+
+
+https://www.youtube.com/watch?v=v8eSGeszu4U
+
+https://docs.laravel-excel.com/3.1/exports/queued.html
+https://docs.laravel-excel.com/3.1/exports/collection.html
+
+
+
+
+https://www.youtube.com/results?search_query=laravel+excel+million+data+entry
+
+
+
+https://pecl.php.net/package/zip
+
+
+
+
+React Donwload File From Laravel
+https://www.youtube.com/watch?v=Vxb-8l4d4Pk
+https://www.youtube.com/watch?v=Lh7thDQ6678
+https://www.youtube.com/watch?v=-qWzSl_h8kI
+https://www.youtube.com/watch?v=jAJzji5UxnU
+
+
+
+
+https://stackoverflow.com/questions/31808416/laravel-excel-download-using-controller
+https://stackoverflow.com/questions/20415444/download-files-in-laravel-using-responsedownload/20415796#20415796
+https://www.appsloveworld.com/reactjs/200/71/download-file-from-the-server-laravel-and-reactjs
+https://laracasts.com/discuss/channels/laravel/issue-faxing-to-download-file-as-xlsx
+https://laracasts.com/discuss/channels/laravel/download-excel-file
+
+
+
+
+--Excel generate data
+https://www.youtube.com/watch?v=H3qwbhHyCMQ
+https://www.youtube.com/watch?v=6uZpryO5_7I
+https://www.youtube.com/watch?v=nUWnh9kz3yI
+
+
+
+Transaction type -> =CHOOSE(RANDBETWEEN(1,4),"membership fee","vip fee","service fee","billing fee")
+Account No -> =RANDBETWEEN(100000000,999999999)
+Reference -> =RANDBETWEEN(1000,9999)&"-"&RANDBETWEEN(1000,9999)
+DATE -> =DATE(2023,1,RANDBETWEEN(10,15))
+Amount -> =CHOOSE(RANDBETWEEN(1,4),500.23,2500.99,1099.1,1599.99)
+
+
+JAN 13 2023
+https://stackoverflow.com/questions/64961225/create-and-save-csv-to-storage-in-laravel
+https://www.google.com/search?q=laravel+create+csv+file+in+storage&oq=laravel+create+csv+file&aqs=chrome.1.69i57j0i512l4j0i22i30l5.6404j0j7&sourceid=chrome&ie=UTF-8

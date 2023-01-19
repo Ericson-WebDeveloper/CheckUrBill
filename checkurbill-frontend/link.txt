@@ -1,0 +1,9 @@
+https://flowbite-react.com/navbars
+
+https://flowbite.com/docs/getting-started/quickstart/
+
+http://tinker-vue.left4code.com/update-profile
+
+
+reference for viewing payment transactions history
+https://tailwind-nextjs-starter-blog.vercel.app/

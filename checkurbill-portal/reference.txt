@@ -1,0 +1,3 @@
+set up flowbite
+
+https://stackoverflow.com/questions/72159593/could-not-find-a-declaration-file-for-module-flowbite-plugin
